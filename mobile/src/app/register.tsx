@@ -40,7 +40,7 @@ export default function Register() {
                 </Input>
                 <Button title="Realizar inscrição" onPress={handleRegister} />
 
-                <Link href="/" className="text-gray-100 text-base font-bold text-center mt-8"> Já possui ingresso? </Link>
+                <Link href="/" className="text-gray-100 text-wrap font-bold text-center mt-8"> Já possui ingresso? </Link>
             </View>
         </View>
     )
